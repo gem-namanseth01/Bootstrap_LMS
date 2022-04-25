@@ -1,3 +1,7 @@
+body {
+  background-image: linear-gradient(to right, aqua, white);
+}
+
 h1 {
     text-align: center;
   }
@@ -13,3 +17,29 @@ h1 {
   .radio {
       margin-left: 10px;
   }
+
+  table {
+    margin-top: 27px;
+    justify-content: center;
+    width: 70%;
+    margin-left: 50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+th, td, thead {
+    padding: 15px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+  
+th {
+    text-align: left;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+#row1 {
+  padding-top: 25px;
+}
