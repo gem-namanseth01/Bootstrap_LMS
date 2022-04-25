@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to right, aqua, white);
+  background-image: linear-gradient(to right, aquamarine, white);
 }
 
 h1 {
@@ -18,17 +18,17 @@ h1 {
       margin-left: 10px;
   }
 
-  table {
+  /* table {
     margin-top: 27px;
     justify-content: center;
     width: 70%;
     margin-left: 50px;
     border: 1px solid black;
     border-collapse: collapse;
-}
+} */
 
 
-th, td, thead {
+/* th, td, thead {
     padding: 15px;
     border: 2px solid black;
     border-collapse: collapse;
@@ -39,7 +39,7 @@ th {
     border: 1px solid black;
     border-collapse: collapse;
   }
-
+*/
 #row1 {
   padding-top: 25px;
-}
+} 
