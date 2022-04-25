@@ -5,3 +5,11 @@ h1 {
     margin: 15px 0px;
     padding: 5px;
   }
+
+  .checkbox {
+      margin-left: 10px;
+  }
+
+  .radio {
+      margin-left: 10px;
+  }
