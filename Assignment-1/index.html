@@ -69,12 +69,12 @@
             </div>
 
             <div class="form-group row">
-              <label for="gender" class="col-3 col-form-label">Gender :</label>
+              <label class="col-3 col-form-label">Gender :</label>
               <div class="col-9">
                 <label class="radio-inline">
                   <input
                     type="radio"
-                    name="radio"
+                    name="radio1"
                     id="gender"
                     class="radio"
                     checked
@@ -83,7 +83,7 @@
                 <label class="radio-inline">
                   <input
                     type="radio"
-                    name="radio"
+                    name="radio1"
                     id="gender"
                     class="radio"
                   />Female
@@ -91,7 +91,7 @@
                 <label class="radio-inline">
                   <input
                     type="radio"
-                    name="radio"
+                    name="radio1"
                     id="gender"
                     class="radio"
                   />Others
@@ -133,18 +133,22 @@
               </div>
             </div>
             <div class="form-group row">
-              <label for="dprt" class="col-3 col-form-label"
-                >Department :</label
-              >
+              <label class="col-3 col-form-label">Department :</label>
               <div class="col-9">
                 <label class="radio-inline">
-                  <input type="radio" name="radio" class="radio" checked />CSE
+                  <input
+                    type="radio"
+                    name="radio"
+                    class="radio"
+                    id="dprt"
+                    checked
+                  />CSE
                 </label>
                 <label class="radio-inline">
-                  <input type="radio" name="radio" class="radio" />EEE
+                  <input type="radio" name="radio" class="radio" id="dprt" />EEE
                 </label>
                 <label class="radio-inline">
-                  <input type="radio" name="radio" class="radio" />BBA
+                  <input type="radio" name="radio" class="radio" id="dprt" />BBA
                 </label>
               </div>
             </div>
@@ -184,6 +188,46 @@
               </div>
             </div>
           </form>
+        </div>
+
+        <div class="col col2">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">SNo</th>
+                <th scope="col">Name</th>
+                <th scope="col">Phone No.</th>
+                <th scope="col">Gender</th>
+                <th scope="col">City</th>
+                <th scope="col">Hobbies</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>ABC</td>
+                <td>432532553</td>
+                <td>Male</td>
+                <td>Delhi</td>
+                <td>Dancing</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>XYZ</td>
+                <td>432532553</td>
+                <td>Male</td>
+                <td>Delhi</td>
+                <td rowspan="2" style="padding-top: 25px">Singing</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>UVW</td>
+                <td>664432553</td>
+                <td>Male</td>
+                <td>Delhi</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
