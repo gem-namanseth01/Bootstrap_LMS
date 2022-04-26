@@ -1,22 +1,24 @@
 body {
-  background-image: linear-gradient(to right, aquamarine, white);
+  background-image: linear-gradient(to right, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 
-h1 {
+
+
+/* h1 {
     text-align: center;
-  }
-  .form-group {
+  } */
+  /* .form-group {
     margin: 15px 0px;
     padding: 5px;
-  }
+  } */
 
-  .checkbox {
+  /* .checkbox {
       margin-left: 10px;
-  }
+  } */
 
-  .radio {
+  /* .radio {
       margin-left: 10px;
-  }
+  } */
 
 
 #row1 {
