@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to right, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  background-image: linear-gradient( #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 
 
@@ -21,11 +21,11 @@ body {
   } */
 
 
-#row1 {
+/* #row1 {
   padding-top: 25px;
-} 
+}  */
 
-table {
+/* table {
   margin-top: 27px;
   margin-left: 40px;
-}
+} */
