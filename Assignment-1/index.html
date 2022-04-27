@@ -13,14 +13,18 @@
     <link rel="stylesheet" href="./style.css" />
     <title>Assignment - 1</title>
   </head>
-  <body>
+  <body
+    style="
+      background-image: linear-gradient(#0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    "
+  >
     <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <h1 class="text-center">Form</h1>
+      <div class="row px-0">
+        <div class="col-6 px-0">
+          <h1 class="text-center border border-3 border-dark">Form</h1>
         </div>
-        <div class="col-6">
-          <h1 class="text-center">Table</h1>
+        <div class="col-6 px-0">
+          <h1 class="text-center border border-3 border-dark">Table</h1>
         </div>
       </div>
       <div class="row">
@@ -72,33 +76,19 @@
               </div>
             </div>
 
-            <div class="form-group mt-4 row">
-              <label class="col-sm-12 col-md-3 col-form-label">Gender :</label>
+            <div class="form-group row mt-4">
+              <label for="gender" class="col-md-3 col-sm-12 col-form-label"
+                >Gender :</label
+              >
               <div class="col-9">
-                <label class="radio-inline">
-                  <input
-                    type="radio"
-                    name="radio1"
-                    id="gender"
-                    class="radio"
-                    checked
-                  />Male
+                <label for="male" class="radio-inline">
+                  <input type="radio" name="gender" id="male" />Male
                 </label>
-                <label class="radio-inline">
-                  <input
-                    type="radio"
-                    name="radio1"
-                    id="gender"
-                    class="radio ms-3"
-                  />Female
+                <label for="female" class="radio-inline">
+                  <input type="radio" name="gender" id="female" />Female
                 </label>
-                <label class="radio-inline">
-                  <input
-                    type="radio"
-                    name="radio1"
-                    id="gender"
-                    class="radio ms-3"
-                  />Others
+                <label for="others" class="radio-inline">
+                  <input type="radio" name="gender" id="others" />Others
                 </label>
               </div>
             </div>
@@ -140,61 +130,50 @@
                 </select>
               </div>
             </div>
+
             <div class="form-group mt-4 row">
-              <label class="col-sm-12 col-md-3 col-form-label"
+              <label for="department" class="col-md-3 col-sm-12 col-form-label"
                 >Department :</label
               >
               <div class="col-9">
-                <label class="radio-inline">
-                  <input
-                    type="radio"
-                    name="radio"
-                    class="radio"
-                    id="dprt"
-                    checked
-                  />CSE
+                <label for="cse" class="radio-inline">
+                  <input type="radio" name="department" id="cse" />CSE
                 </label>
-                <label class="radio-inline">
-                  <input
-                    type="radio"
-                    name="radio"
-                    class="radio ms-3"
-                    id="dprt"
-                  />EEE
+                <label class="radio-inline" for="eee">
+                  <input type="radio" name="department" id="eee" />EEE
                 </label>
-                <label class="radio-inline">
-                  <input
-                    type="radio"
-                    name="radio"
-                    class="radio ms-3"
-                    id="dprt"
-                  />BBA
+                <label class="radio-inline" for="bba">
+                  <input type="radio" name="department" id="bba" />BBA
                 </label>
               </div>
             </div>
-            <div class="form-group mt-4 row">
-              <label for="course" class="col-sm-12 col-md-3 col-form-label"
+
+            <div class="form-group row">
+              <label for="course" class="col-md-3 col-sm-12 col-form-label"
                 >Course :</label
               >
               <div class="col-9">
                 <label class="check-inline">
-                  <input type="checkbox" class="checkbox" checked />C
+                  <input type="checkbox" name="c" />C
                 </label>
                 <label class="check-inline">
-                  <input type="checkbox" class="checkbox ms-3" />C++
+                  <input type="checkbox" name="c++" />C++
                 </label>
                 <label class="check-inline">
-                  <input type="checkbox" class="checkbox ms-3" />Java
-                </label>
-                <label class="check-inline ms-2">
-                  <input type="checkbox" class="checkbox ms-3" />AI
+                  <input type="checkbox" name="java" />Java
                 </label>
                 <label class="check-inline">
-                  <input type="checkbox" class="checkbox ms-3" />Machine
-                  Learning
+                  <input type="checkbox" name="ai" />AI
                 </label>
                 <label class="check-inline">
-                  <input type="checkbox" class="checkbox ms-3" />Robotics
+                  <input
+                    type="checkbox"
+                    name="machinelearning"
+                    id="course"
+                  />Machine Learning
+                </label>
+                <label class="check-inline">
+                  <input type="checkbox" name="robotics" id="course" />Robotics
                 </label>
               </div>
             </div>
@@ -216,7 +195,7 @@
         </div>
 
         <div class="col-6 col2">
-          <table class="table border-dark table-bordered mt-4 ms-5">
+          <table class="table border-dark table-bordered mt-4">
             <thead>
               <tr>
                 <th sc ope="col">SNo</th>
