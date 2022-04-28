@@ -1,3 +1,9 @@
+.shadow-btn {
+  background-color: #e8eaf1;
+  border: none;
+  box-shadow:  3px 3px 6px #bfc3cf,  -3px -3px 6px #ffffff;
+}
+
 .form-control, .form-select {
   color: #7a86a3;
   border-radius: 20px !important;
@@ -16,7 +22,7 @@ label {
   color: #7a86a3;
 }
 
-input, select, input::-webkit-input-placeholder, select::-webkit-input-placeholder {
+input, select, input::-webkit-input-placehoshadoelder, select::-webkit-input-placeholder {
   text-indent: 10px;
   font-size: 13px !important;
 }
