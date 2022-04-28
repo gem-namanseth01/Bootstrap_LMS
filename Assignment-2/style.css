@@ -4,6 +4,12 @@
   box-shadow:  3px 3px 6px #bfc3cf,  -3px -3px 6px #ffffff;
 }
 
+@media only screen and (min-width: 990px) {
+  .list {
+    margin-left: 23rem !important;
+  }
+}
+
 .form-control, .form-select {
   color: #7a86a3;
   border-radius: 20px !important;
@@ -44,26 +50,6 @@ input, select, input::-webkit-input-placehoshadoelder, select::-webkit-input-pla
   min-height: 1px;
   padding: 1.25rem;
 }
-
-/* .details_box{
-    height: 80px;
-    width: 80px;
-    box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-
-/* .join_text {
-  color: #071e54;
-  font-size: 13px;
-  opacity: .5;
-  text-align: center; 
-  float: left; 
-  font-size: 14px;
-} */
 
 .head-style {
     padding-top: 70px;
